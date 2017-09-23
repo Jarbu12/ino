@@ -1,0 +1,59 @@
+html {
+    min-height: 100%;
+    position: relative
+}
+
+body {
+    padding-bottom: 0;
+    background-color: #e4e6e9;
+    min-height: 100%;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    color: #393939
+}
+
+.modal {
+    border-radius: 0
+}
+
+.modal-footer {
+    border-top-color: #e4e9ee;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-color: #eff3f8
+}
+
+.modal-header .close {
+    font-size: 32px
+}
+
+.rtl .modal {
+    direction: rtl;
+    text-align: right
+}
+
+.rtl .modal-footer {
+    text-align: left
+}
+
+.rtl .modal-footer .btn+.btn {
+    margin-left: 0;
+    margin-right: 5px
+}
+
+.overflow-hidden {
+    overflow: hidden
+}
+
+.overflow-auto {
+    overflow: auto
+}
+
+.overflow-scroll {
+    overflow: scroll
+}
+
+.overflow-visible {
+    overflow: visible
+}
